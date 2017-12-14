@@ -1,0 +1,23 @@
+{
+    "name": "parameter/validator",
+    "description": "A simple extension of the parameter validator for composr",
+    "type": "library",
+    "authors": [
+        {
+            "name": "longmore",
+            "email": "Vericmore@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "php": ">=5.3.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Validator\\": "src"
+        }
+    }
+}
